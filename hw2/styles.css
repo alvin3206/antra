@@ -1,0 +1,49 @@
+:root {
+    background-color: #2c2c2c;
+    color: white;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: unset;
+}
+
+.list__item {
+    display: flex;
+    margin: 8px 0;;
+    padding: 0 12%;
+    background-color: black;
+    height:480px;
+}
+
+.list__item--text-right {
+    flex-direction: row-reverse;
+}
+
+.list__item--text-left {
+    flex-direction: row;
+}
+
+.img-group {
+    flex: 1 1 50%;
+    height: 100%;
+}
+
+.text-group {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+img {
+    padding: 10%;
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
